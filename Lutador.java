@@ -28,8 +28,8 @@ public class Lutador {
         this.forca = forca;
     }
 
-    public void reduzirEnergia(int reduz){
-        this.energia -= reduz;
+    public void reduzirEnergia(Lutador x){
+        x.energia -= this.forca;
     }
 
 }
